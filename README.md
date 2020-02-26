@@ -1,2 +1,3 @@
 # Django_chat_app
 a simple chat app using Django
+The required libraries can be found in requirements.txt but you will also need to have redis server 3.2.1 installed and running in its local directory using  <$ redis-server.exe redis.windows.conf>  also docker with version suitable for your windows/linux version should be installed. Here, I've used Docker Toolbox suitable for my windows 8.1. Also, the port number used here is not the default 6397 but 16397. Remember to check that a virtual machine is installed when installung docker and also remember to add anything you install to the PATH variable.
